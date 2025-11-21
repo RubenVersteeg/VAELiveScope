@@ -1,3 +1,5 @@
+See environment.yml for environmental details.
+
 These scripts were used to create and analyse the model of my thesis. To recreate my results shank3USVs_many_properties.jl and emitter_and_specs.jl should be downloaded from the Radboud repository and added to this repository on your local machine.
 Here I will give a step-wise explanation on how to recreate my results:
 
