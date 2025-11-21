@@ -5,3 +5,6 @@ checkpoint_best.tar
 /final_models
 /multiple_models_pups
 /multiple_models_shank3
+shank3USVs_hardcoded_features_no_female
+shank3USVs_hardcoded_features
+pups_hardcoded_features
