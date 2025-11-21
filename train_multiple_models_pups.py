@@ -55,7 +55,7 @@ if __name__ == "__main__":
     del labels, padded_spec, original_indices
 
     # --- Main Training and Saving Loop ---
-    base_folder = Path('final_models')
+    base_folder = Path('multiple_models_pups')
 
 
     for j in range(number_of_models_per_latent_size):
