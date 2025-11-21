@@ -33,8 +33,8 @@ precision_model = 10.0
 slope_leaky = 0.1
 nr_epochs = 1000
 amount_of_patience = 25
-number_of_models_per_latent_size = 1
-latent_sizes = [8]
+number_of_models_per_latent_size = 5
+latent_sizes = [8,16,24,32,40,48,56,64,96,128]
 
 # --- Main script execution starts here ---
 if __name__ == "__main__":
