@@ -2,8 +2,8 @@ import joblib.numpy_pickle as joblib
 import os
 import torch
 import numpy as np
-import VAELiveScope.create_padded_spectograms as create_padded_spectograms
-import VAELiveScope.normalize_padded_spectograms as normalize_padded_spectograms
+import create_padded_spectograms
+import normalize_padded_spectograms
 #first get training parameters for the model from the notebook and save them in a file
 def save_parameters(spectograms_file,labels_file,batch_size,model_choice,name,latent_space_size,nr_epochs,amount_of_patience,slope_leaky,oversampling_method,learning_rate,precision_model,max_value_is_per_spec, removal_of_female):
     #save the parameters to a file in directory with name
