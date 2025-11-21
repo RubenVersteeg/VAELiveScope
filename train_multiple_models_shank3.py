@@ -8,13 +8,13 @@ import torch.nn as nn
 from pathlib import Path
 
 # Import your custom modules
-import seperate_spec_and_features
-import make_labels
-import create_padded_spectograms
-import normalize_padded_spectograms
-import load_usv_data_strain
-import autoencoder_functions
-import save_model
+import VAELiveScope.seperate_spec_and_features as seperate_spec_and_features
+import VAELiveScope.make_labels as make_labels
+import VAELiveScope.create_padded_spectograms as create_padded_spectograms
+import VAELiveScope.normalize_padded_spectograms as normalize_padded_spectograms
+import VAELiveScope.load_usv_data_strain as load_usv_data_strain
+import VAELiveScope.autoencoder_functions as autoencoder_functions
+import VAELiveScope.save_model as save_model
 
 # --- Global Configuration (can be outside the main block) ---
 batch_size = 64
