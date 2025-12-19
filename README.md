@@ -18,8 +18,10 @@ Run both these files again. This will train the final models, where analysis wil
 
 4. Run compare_latent_vs_hardcoded.ipynb to recreate Figure 4, which is created in the last cell of the notebook.
 
-5. Run thesis_figures.ipynb to recreates Figures 5, 6, 7 and 8.
+5. Run thesis_figures.ipynb to recreates Figures 5, 7, 8 and 9.
 
-6. Run check_features.ipynb to recreate Figure 9
+6. Run check_features.ipynb to recreate Figure 11
 
-7. Run test_times.ipynb to test pipeline times. Results in thesis are with specified hardware in thesis.
+7. Run train_multiple_models_combined.py, inspect_combined_training.ipynb, analyse_combined_training.ipynb, check_features.ipynb to recrate Figures 6 and 10 and appendixe Figure 3
+
+8. Run test_times.ipynb to test pipeline times. Results in thesis are with specified hardware in thesis.
